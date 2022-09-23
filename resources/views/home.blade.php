@@ -8,17 +8,6 @@
 </head>
 
 <body>
-    <section>
-        @foreach($trains as $train)
-        <h1> {{ $train->company }} </h1>
-        <h4> {{ $train->from }} </h4>
-        <h4> {{ $train->to }} </h4>
-        <h4> {{ $train->arrival }} </h4>
-        <h4> {{ $train->train_code }} </h4>
-        <h4> {{ $train->arrival }} </h4>
-    @endforeach
-    </section>
-
 </body>
 
 </html>
